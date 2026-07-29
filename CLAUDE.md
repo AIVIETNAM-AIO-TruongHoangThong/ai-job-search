@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Truong Hoang Thong
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude/Antigravity acts as a career advisor and application assistant for Truong Hoang Thong, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,79 +10,85 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:**
-  | Language | Level |
-  |----------|-------|
-  | [LANGUAGE] | [LEVEL] |
-  <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
-  working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
-  undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
-  lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
-  04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+- **Name:** Truong Hoang Thong (TRUONG HOANG THONG)
+- **Email:** contact@thongtruong.com
+- **Phone:** (+84) 85 986 4079
+- **Website:** https://thongtruong.com
+- **LinkedIn:** https://www.linkedin.com/in/thongtr/
+- **GitHub:** https://github.com/AIVIETNAM-AIO-TruongHoangThong
+- **Location:** Ho Chi Minh City, Vietnam / Adelaide, Australia (Open to Vietnam, Remote, Hybrid, or Relocation)
+- **Languages:** English (IELTS 7.5 - Professional Working), Japanese (JLPT N2 Certified 2020), Vietnamese (Native)
+- **CV language:** English
+- **Status:** Co-Founder & Technical Lead (Data & AI) @ Nexus Tech Global / SiteBotic & Software Engineer @ PALTech (Transitioning to Machine Learning Engineering / AI Engineering / Data Science)
+- **LinkedIn headline:** "Software Engineer | AI & Data Focus"
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+### Target Roles
+- **Primary:** Data Scientist, Machine Learning Scientist, Applied ML Researcher
+- **Secondary:** Machine Learning Engineer (only if focused on modeling and data, NOT backend/infrastructure)
+
+### Target Compensation & Environment
+- **Minimum Salary:** 40,000,000 VND gross/month
+- **Target Salary:** 50,000,000+ VND gross/month (depending on scope & package)
+- **Environment:** Full English-speaking work environment, strong preference for European or North American influenced engineering culture.
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **AIO 2026 AI Program** (June 2026 – Present) - AI VIET NAM (Verified Module 01 Certificate)
+- **Bachelor of Information Technology** (2022 - 2026) - University of Information Technology (VNU-HCM)
+  - Classification: Very Good | GPA: 3.5 / 4.0
+- **Bachelor of Arts in Japanese Studies** (2016 - 2020) - University of Social Sciences and Humanities (VNU-HCM)
+  - Graduated 2020 | GPA: 3.0 / 4.0
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Co-Founder & Technical Lead (Data & AI)** (March 2025 – Present) - **Nexus Tech Global (Project: SiteBotic)** (Adelaide, Australia)
+  - Multi-tenant AI chatbot SaaS platform crawling websites, building vector search knowledge bases, and deploying embeddable widgets.
+  - Designed core vector search pipelines using PostgreSQL/pgvector for scalable semantic data retrieval.
+  - Integrated Crawl4AI to parse website content, supporting JavaScript-rendered SPAs and resolving container memory crashes during heavy ingestion loads.
+  - Refactored Dramatiq background workers to use a single persistent AsyncIO event loop, resolving thread-safety and connection pool issues in data pipelines.
+  - Utilized AI coding workflows to accelerate development, enforce coding standards, and mentor team members.
+  - Configured session-only cookie management to isolate user histories, resolving cross-session data leaks.
+
+- **Software Engineer** (February 2024 – Present) - **PALTech** (Ho Chi Minh City, Vietnam)
+  - Developed and maintained user interface components using Angular, TypeScript, and modern styling practices for high-throughput platforms processing real-time transaction feeds.
+  - Built and updated web APIs using Java, implementing business logic and routing for transaction histories.
+  - Designed and optimized MySQL database queries and schemas to improve data retrieval performance.
+  - Partnered with DBAs and QA engineers in Agile sprints.
+
+- **Web Engineer** (April 2022 – January 2024) - **BeSmartee** (Ho Chi Minh City, Vietnam)
+  - Built, customized, and maintained platform sub-pages and plugins using PHP and WordPress.
+  - Integrated third-party APIs and managed schema migrations on MySQL databases.
+
+- **Freelance Web Developer (WordPress & PHP)** (October 2020 – April 2022) - **Self-Employed** (Ho Chi Minh City, Vietnam)
+  - Developed and maintained custom WordPress sites for local clients writing custom PHP templates and styling.
+
+### Key Projects & Research
+- **SiteBotic - AI-Powered Chatbot Platform** (sitebotic.com): Multi-tenant SaaS featuring automated website crawling, vector search knowledge bases, and embeddable widgets. Tech: Python, FastAPI, pgvector, PostgreSQL, Dramatiq, Redis, Crawl4AI, React, Docker.
+- **Multimodal Similarity Matching for Images & Texts** (AI VIET NAM - AIO 2026): Implemented and benchmarked image–text similarity matching (ResNet50 baseline, Least-Squares linear projection W, CLIP contrastive embeddings). Tech: Python, NumPy, Matplotlib, CLIP, ResNet50, PyTorch.
+- **Shot Zone & Quality Clustering** (AI VIET NAM - AIO 2026): Analyzed feature scaling impact on K-Means clustering and KNN classification using Hudl Open Data World Cup dataset. Tech: Python, NumPy, Pandas, Scikit-learn, Matplotlib, K-Means, KNN.
+- **Customer 360 Risk Scoring System** (Capstone Project): End-to-end data pipeline to ingest, clean, and model user transaction data into a risk analytics warehouse. Tech: Apache Spark, PySpark, Airflow, PostgreSQL, Metabase.
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **AI & Data Science:** PyTorch, NumPy, Pandas, Scikit-learn, Machine Learning (Classification, Clustering, Regression), Deep Learning, Computer Vision, Natural Language Processing (NLP), RAG & Vector Search, Crawl4AI.
+- **Backend & APIs:** Python (FastAPI, AsyncIO, SQLAlchemy, SQLModel), Java, REST APIs, Dramatiq, Redis, PHP (WordPress).
+- **Front-End Development:** React.js, TypeScript, Next.js, Angular, Vite, HTML5/CSS3, Tailwind CSS.
+- **Databases & Data Engineering:** PostgreSQL, pgvector, MySQL, Apache Spark, PySpark, Airflow, Metabase.
+- **DevOps & Tooling:** Docker, Git, GitOps.
 
-### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
-
-### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
-
-### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
-
-### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
-
-### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+### Behavioral Profile & Work Culture
+- **Bridging Software & ML:** Strong software engineering foundation with production FastAPI, AsyncIO, and PostgreSQL experience, moving into building production-grade ML models and RAG pipelines.
+- **Engineering Excellence:** Values ownership, clean code, scalable architecture, and AI-assisted engineering workflows.
+- **Environment:** Product-driven companies with Western (European/North American) engineering values, full English environment, fast-paced innovation.
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- AI / Machine Learning SaaS platforms
+- Data-intensive product platforms
+- Applied AI research & development labs
 
 ### Deal-breakers
-<!-- Hard constraints on job search. Language requirements are handled separately and
-automatically from your Languages table above - don't duplicate them here. -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Heavy software engineering, backend infrastructure, or DevOps roles (seeking to transition AWAY from traditional SWE after age 30).
+- Pure legacy web maintenance with zero ML/AI or data exposure.
+- Non-English primary work environment.
+- Base salary below 40,000,000 VND gross/month.
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
@@ -141,7 +144,52 @@ Both documents MUST be compiled and visually inspected via the Read tool on the 
 
 ### ATS & keyword verification (CV)
 ATS parsers read the PDF's embedded text layer, not the rendered page. Extract it with `pdftotext -layout` and verify what a parser sees. `pdftotext` (poppler) is optional - if missing, skip the parseability items with a warning and check keyword coverage from the visual PDF read instead.
-- [ ] CV text layer extracts cleanly - no `(cid:*)` markers, `�` replacement characters, or text visible in the PDF but absent from the extraction
+- [ ] CV text layer extracts cleanly - no `(cid:*)` markers, `` replacement characters, or text visible in the PDF but absent from the extraction
 - [ ] Email and phone appear as **literal text** in the extraction (icon-glyph noise like `MOBILE-ALT`/`Envelope` is harmless, but a contact detail carried only by an icon or hyperlink is invisible to ATS)
 - [ ] Reading order of the extracted text matches the visual order (single-column stock template is safe; multi-column custom templates are where this breaks)
 - [ ] Posting keywords covered or honestly absent - synonym-only matches tightened to the posting's exact term where truthfully applicable, keywords the profile genuinely supports added to experience bullets, genuine gaps left visible and **never stuffed**
+
+<!-- gitnexus:start -->
+# GitNexus — Code Intelligence
+
+This project is indexed by GitNexus as **ai-job-search** (475 symbols, 858 relationships, 15 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
+
+> Index stale? Run `node .gitnexus/run.cjs analyze` from the project root — it auto-selects an available runner. No `.gitnexus/run.cjs` yet? `npx gitnexus analyze` (npm 11 crash → `npm i -g gitnexus`; #1939).
+
+## Always Do
+
+- **MUST run impact analysis before editing any symbol.** Before modifying a function, class, or method, run `impact({target: "symbolName", direction: "upstream"})` and report the blast radius (direct callers, affected processes, risk level) to the user.
+- **MUST run `detect_changes()` before committing** to verify your changes only affect expected symbols and execution flows. For regression review, compare against the default branch: `detect_changes({scope: "compare", base_ref: "master"})`.
+- **MUST warn the user** if impact analysis returns HIGH or CRITICAL risk before proceeding with edits.
+- When exploring unfamiliar code, use `query({search_query: "concept"})` to find execution flows instead of grepping. It returns process-grouped results ranked by relevance.
+- When you need full context on a specific symbol — callers, callees, which execution flows it participates in — use `context({name: "symbolName"})`.
+- For security review, `explain({target: "fileOrSymbol"})` lists taint findings (source→sink flows; needs `analyze --pdg`).
+
+## Never Do
+
+- NEVER edit a function, class, or method without first running `impact` on it.
+- NEVER ignore HIGH or CRITICAL risk warnings from impact analysis.
+- NEVER rename symbols with find-and-replace — use `rename` which understands the call graph.
+- NEVER commit changes without running `detect_changes()` to check affected scope.
+
+## Resources
+
+| Resource | Use for |
+|----------|---------|
+| `gitnexus://repo/ai-job-search/context` | Codebase overview, check index freshness |
+| `gitnexus://repo/ai-job-search/clusters` | All functional areas |
+| `gitnexus://repo/ai-job-search/processes` | All execution flows |
+| `gitnexus://repo/ai-job-search/process/{name}` | Step-by-step execution trace |
+
+## CLI
+
+| Task | Read this skill file |
+|------|---------------------|
+| Understand architecture / "How does X work?" | `.claude/skills/gitnexus/gitnexus-exploring/SKILL.md` |
+| Blast radius / "What breaks if I change X?" | `.claude/skills/gitnexus/gitnexus-impact-analysis/SKILL.md` |
+| Trace bugs / "Why is X failing?" | `.claude/skills/gitnexus/gitnexus-debugging/SKILL.md` |
+| Rename / extract / split / refactor | `.claude/skills/gitnexus/gitnexus-refactoring/SKILL.md` |
+| Tools, resources, schema reference | `.claude/skills/gitnexus/gitnexus-guide/SKILL.md` |
+| Index, status, clean, wiki CLI commands | `.claude/skills/gitnexus/gitnexus-cli/SKILL.md` |
+
+<!-- gitnexus:end -->

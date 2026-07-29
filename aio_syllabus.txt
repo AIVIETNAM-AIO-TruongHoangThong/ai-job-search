@@ -1,0 +1,15 @@
+   Unnamed: 0 Unnamed: 1           Unnamed: 2                                                                Unnamed: 3      Unnamed: 4
+0         NaN        NaN                  NaN                                                                       NaN             NaN
+1         NaN        NaN                  NaN                                                                       NaN             NaN
+2         NaN        NaN                  NaN                                                        WarmUp-3 (AIO2026)             NaN
+3         STT        Thứ                 Ngày                                                                   Tiêu đề        Lecturer
+4           1          2           20/04/2026                                                 AIO for Your Career Paths  Dr. Quang Vinh
+5           2          5           23/04/2026                                            Compulsory Skills for AIO-2026   Dr. Đình Vinh
+6           3          2           27/04/2026                                             How to Learn AIO effectively?        AIO-2025
+7           4          5           30/04/2026                                               How to Start an AI Startup?    CEO Anh Tiến
+8           5          2  2026-04-05 00:00:00  Career Pathways in Data Science & AI: Insights and Industry Case Studies     Dr. Thái Hà
+9           6          5  2026-07-05 00:00:00                            Pathways to Become a World-Class AI Researcher  MSc. Thanh Huy
+10          7          2  2026-11-05 00:00:00                                               Overview of Computer Vision   Dr. Đình Vinh
+11          8          5           14/05/2026                                   Overview of Natural Language Processing  MSc. Quốc Thái
+12          9          2           18/05/2026                                  Cách xây dựng và hoạt động nhóm hiệu quả  MSc. Thanh Huy
+13         10          5           21/05/2026          Critical thinking, problem solving và data storytelling trong DA   Ms. Hồng Diễm

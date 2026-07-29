@@ -4,51 +4,37 @@ framework_version: 1.0.0
 
 # Behavioral Profile
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- You can use results from PI, DISC, Myers-Briggs, StrengthsFinder, or a self-assessment -->
-
 ## Overview
-[YOUR_NAME]'s behavioral assessment identifies them as a **[PROFILE_TYPE]** pattern. [1-2 SENTENCE_SUMMARY].
+Truong Hoang Thong is currently an experienced Full-Stack/Backend Engineer who is making a deliberate, strategic career pivot into pure Data Science, Machine Learning Modeling, and Applied Research as he approaches age 30. He is actively using the rigorous AIO 2026 program to build a deep mathematical and theoretical foundation to support this transition.
 
 ## Core Behavioral Drives
 
 | Drive | Level | Meaning |
 |-------|-------|---------|
-| [DRIVE_1] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_2] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_3] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_4] | [LEVEL] | [DESCRIPTION] |
+| Career Pivot & Focus | Very High | Determined to move away from traditional backend/infrastructure/DevOps work. Highly focused on mathematics, algorithms, and data insights. |
+| Continuous Learning | High | Demonstrates a strong commitment to structured, long-term learning (AIO 2026 syllabus covering NumPy, ML algorithms, DL, CV, and NLP). |
+| Analytical Rigor | High | Applies his software engineering discipline (clean code, structure) to complex data modeling problems. |
 
 ## Strongest Behaviors
-- **[BEHAVIOR_1]:** [DESCRIPTION]
-- **[BEHAVIOR_2]:** [DESCRIPTION]
-- **[BEHAVIOR_3]:** [DESCRIPTION]
+- **Long-Term Strategic Planner:** Thong is not just looking for a job for tomorrow; he is mapping his career to his ongoing education, targeting progressive roles (Data Analyst -> Junior Data Scientist -> Applied ML Researcher) as he unlocks new modules in his syllabus.
+- **Strong Foundation:** Bringing years of rigorous engineering discipline into the often chaotic world of data science scripts and notebooks.
+- **Adaptable & Multilingual:** Dual-degree holder fluent in English (IELTS 7.5) and Japanese (JLPT N2), thriving in international/English-speaking cultures.
 
 ## How You Work Best
-- [ENVIRONMENT_PREFERENCE_1]
-- [ENVIRONMENT_PREFERENCE_2]
-- [ENVIRONMENT_PREFERENCE_3]
+- Roles focused on **model training, data analysis, statistics, and mathematics**.
+- Full English-speaking work environment with a Western engineering/research culture.
+- Environments that respect and encourage continuous learning and academic growth alongside professional duties.
 
-## Growth Areas (frame positively in applications)
-- **[AREA_1]:** [HOW_TO_FRAME_IT_POSITIVELY]
-- **[AREA_2]:** [HOW_TO_FRAME_IT_POSITIVELY]
+## Growth Areas (framed positively in applications)
+- **Transitioning from SE to DS/ML:** Framed as a strength: brings production software reliability to data science teams while actively closing the theoretical gap via formal, structured education.
+- **Progressive Skill Acquisition:** As Thong progresses through the AIO 2026 modules (from Basic ML in Module 3 to Deep Learning in Module 4 to CV/NLP in Modules 5-6), his target job scope will expand to include these advanced domains.
 
 ## Mapping to Job Posting Language
 
-When a job posting mentions these keywords, it's a **strong behavioral fit**:
-- [KEYWORD_OR_PHRASE_THAT_MATCHES_YOUR_STYLE]
-- [ANOTHER_KEYWORD]
+**Strong Behavioral Fit:**
+- "Data Scientist", "Machine Learning Scientist", "Applied ML Researcher", "Data Analyst", "Algorithm Developer", "Statistical Modeling".
+- Roles that value Python, PySpark, scikit-learn, and mathematical fundamentals over cloud infrastructure.
 
-When a job posting mentions these, flag as **potential friction** (not deal-breaker):
-- [KEYWORD_OR_PHRASE_THAT_MIGHT_CLASH]
-- [ANOTHER_KEYWORD]
-
-## Management Style Preferences
-- [WHAT_MANAGEMENT_STYLE_WORKS_FOR_YOU]
-- [WHAT_DOESN'T_WORK]
-
-## Using This in Applications
-- **Cover letters:** [HOW_TO_WEAVE_IN_BEHAVIORAL_STRENGTHS]
-- **CV:** [WHAT_TO_EMPHASIZE]
-- **Interviews:** [WHAT_STAR_EXAMPLES_TO_USE]
-- **Don't overstate:** [WHAT_NOT_TO_CLAIM]
+**Potential Friction (flag as caution):**
+- "Backend AI Engineer", "MLOps Infrastructure", "DevOps", "Full-Stack AI Developer".
+- Roles heavily focused on async programming, API development, container management, or legacy web maintenance.
